@@ -9,6 +9,17 @@ readme = "README.md"
 python = "^3.13"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+taskipy = "^1.14.0"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.5.44"
+mkdocstrings = "^0.26.2"
+mkdocstrings-python = "^1.12.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
