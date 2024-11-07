@@ -1,0 +1,22 @@
+site_name: Notas Musicais
+repo_url: https://github.com/joserobertoferreira/notas-musicais
+repo_name: joserobertoferreira/notas-musicais
+edit_uri: tree/main/docs/
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: purple
+    accent: dark purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
