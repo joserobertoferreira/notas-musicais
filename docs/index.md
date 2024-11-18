@@ -4,16 +4,17 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Como usar
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+Você pode chamar as escalas via linha de comando.
 
-## Project layout
+```bash
+  poetry run escalas
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+            Escalas Musicais
+  ┏━━━┳━━━━┳━━━━━┳━━━━┳━━━┳━━━━┳━━━━━┓
+  ┃ I ┃ II ┃ III ┃ IV ┃ V ┃ VI ┃ VII ┃
+  ┡━━━╇━━━━╇━━━━━╇━━━━╇━━━╇━━━━╇━━━━━┩
+  │ C │ D  │ E   │ F  │ G │ A  │ B   │
+  └───┴────┴─────┴────┴───┴────┴─────┘
+```
